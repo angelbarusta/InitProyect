@@ -41,17 +41,17 @@ module.exports = {
       {
         test: /\.styl$/,
         use: ["style-loader", "css-loader", "stylus-loader"],
-      },
-      {
-        test: /\.jpg|png|gif|woff|eot|ttf|svg|mp4|webm$/,
-        use: {
-          loader: "file-loader", //url-loader
-          options: {
-            //limit: 90000,
-            outputPath: "assets/",
-          },
-        },
-      },
+      // },
+      // {
+      //   test: /\.jpg|png|gif|woff|eot|ttf|svg|mp4|webm$/,
+      //   use: {
+      //     loader: "file-loader", //url-loader
+      //     options: {
+      //       //limit: 90000,
+      //       outputPath: "assets/",
+      //     },
+      //   },
+      // },
     ],
   },
   plugins: [
